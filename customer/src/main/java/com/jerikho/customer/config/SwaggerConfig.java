@@ -13,7 +13,7 @@ public class SwaggerConfig {
     GroupedOpenApi publicApi() {
         return GroupedOpenApi.builder()
                 .group("customer")
-                .pathsToMatch("/api/v1/customers/**") // Pastikan ini sesuai dengan controller Anda
+                .pathsToMatch("/api/v1/customers/**")
                 .build();
     }
 
